@@ -1,0 +1,27 @@
+body{
+		font-family: 'Raleway', sans-serif !important;
+}
+.form-padding{
+		border: 1px solid lightblue;
+    	padding: 50px;
+}
+span{
+		color: red;
+}
+.form-group{
+		position: relative;
+}
+.form-group label {
+		color: burlywood;
+}
+#rightname, #rightemail, #rightzip{
+		color: lightblue;
+		font-size: 24px;
+		position: absolute;
+		top: 25px;
+		right: 11px;
+
+}
+button{
+		margin-top: 30px;
+}

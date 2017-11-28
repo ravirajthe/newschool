@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Setup</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-6 col-md-offset-3 form-padding">
+			<form action="" method="POST" role="form">
+				<legend>JS Form Validation</legend>
+				<div class="form-group">
+					<label for="">Name</label>
+					<input type="text" class="form-control" id="name" onblur="validateName()" onkeyup="hideError('nameError')" autocomplete="off" placeholder="Input your name">
+					<span id="nameError"></span>
+					<span id="rightname"></span>
+				</div>
+				<div class="form-group">
+					<label for="">Email</label>
+					<input type="text" class="form-control" id="email" onblur="validateEmail()" onkeyup="hideError('emailError')" autocomplete="off" placeholder="Input your email">
+					<span id="emailError"></span>
+					<span id="rightemail"></span>
+				</div>
+				<div class="form-group">
+					<label for="">Country</label>
+					<select name="" id="country" onblur="validateCountry()" class="form-control">
+						<option value="-1">Select country</option>
+						<option value="india">India</option>
+						<option value="america">America</option>
+						<option value="africa">Africa</option>
+						<option value="japan">Japan</option>
+						<option value="rusia">Rusia</option>
+						<option value="china">China</option>
+					</select>
+					<span id="countryError"></span>
+				</div>
+				<div class="form-group">
+					<label for="">Zip Code</label>
+					<input type="text" class="form-control" id="zipcode" onblur="validateZipCode()" autocomplete="off" onkeyup="hideError('zipError')" placeholder="Input Zipcode">
+					<span id="zipError"></span>
+					<span id="rightzip"></span>
+				</div>
+				<button type="submit" class="btn btn-primary btn-block" id="submitBtn">Submit</button>
+			</form>
+		</div>
+	</div>
+	
+
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/c07491ac33.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
