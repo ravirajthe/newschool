@@ -448,7 +448,7 @@ body{
 	position: absolute;
 	width: 100%;
     height: 100%;
-    background: #0000008c;
+    background: #000000bf;
 }
 .header-text h3{
 	font-size: 36px;
@@ -573,90 +573,26 @@ body{
 		justify-content: center;
 }
 
-
-@media only screen and (max-width:480px){
-
-		.header-body p{
-			margin-left: 0 !important;
-		}
-		.header-text h1{
-			font-size: 38px;
-			padding: 10px 0;
-		}
-		.header-text h3{
-           font-size: 28px;
-		}
-		.header-text p {
-                          padding: 15px 48px;
-                          font-size: 11px;
-
-		}
-		.header-socail-icon{
-			                  padding: 26px 60px;
-    
-		}
-		.navbar-inverse .navbar-toggle {
-                              border-color: #fffdfd;
-
-} 
-.learning-btn {
-	          padding: 10px 10px;
-}
-
-.sch-program-item {
-                 padding: 35px 30px 32px 42px;
-}
-.sch-program-item h1{
-                    font-size: 23px;
-}
-.site-hdr{
-          font-size: 34px;
-}
-.school-program-btn{
-                   padding: 10px 10px; 
-
-}
-.abt-teacher{
-           font-size: 18px;
-}
-.slider1-text h1{
-	font-size: 1.8em;
-
-}
-.slider1-text p{
-                font-size: 13px;	
-}
-.blog-text h1{
-             font-size: 33px;
-}
-.text1{
-        font-size: 20px;
-
-}
-.portfolio-fluid{
-	              margin-left: 40px !important;       
-}    
-.contact-text1{ 
-              font-size: 33px;
-}    
-.contact-text2{
-	          font-size: 20px;
-}  
-.social-icon ul li{
-	padding: 0 8px;
-
-}   
-.social-icon{
-       font-size: 10px;
-} 
-.social-icon ul li a{
-           padding: 32px;
-}
-.modal-header {
-    padding: 15px 0px 0px 28px;
+@media only screen and (max-width: 480px){
+	.header-body p {
+		margin-left: 0 !important;
+	}
+	.header-text h1{
+		font-size: 36px;
+	}
+	.header-text h3{
+		font-size: 26px;
+	}
+	.header-text p{
+		padding: 30px 15px;
+    	font-size: 15px;
+	}
+	.sch-program-item img{
+		margin: 0 auto;
+	}
+	.sch-program-item h1{
+		font-size: 26px;
+	}
 }
 
 
-
-
-}
