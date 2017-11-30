@@ -516,7 +516,7 @@ body{
 .footer-ul li a{
                   padding: 2px 0px;
                 font-size: 19px;
-                 color: #ffff;
+                 color: #ffff !important;
                font-family: 'Lato', sans-serif;
                text-decoration: none;
 }
@@ -599,6 +599,25 @@ body{
     height: 100% !important;
     background: #000000bf !important;
 	}
+	.social-icon ul li{
+                        padding: 0 10px;
+	}
+	.custum-div img{
+                    margin: 0 auto;
+	}
+	.modal-header{
+		            padding: 13px 0px 0px 26px;
+
+
+	}
+	.fa-3x{
+		  font-size: 2em !important;
+
+	}
+	.social-icon ul li a{
+                       padding: 26px;
+	}
+
 }
 
 
@@ -618,6 +637,28 @@ body{
     width: 100% !important;
     height: 100% !important;
     background: #000000bf !important;
+	}
+
+	.blog-text h1{
+		    font-size: 32px !important;
+
+	}
+	.text1{
+           font-size: 24px;
+	}
+	.modal-header{
+		      padding: 6px 0px 0px 0px;
+
+	}
+	.social-icon ul li{
+		             padding: 0 4px;
+
+	}
+	.socail-t{
+		       font-size: 12px;
+	}
+	.navbar-inverse .navbar-toggle{
+                              border-color: #ffffff;
 	}
 }
 
