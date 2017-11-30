@@ -699,7 +699,7 @@ body{
 
 @media (max-width: 1440px){
 	                 .main-navbar-bg{
-	                 	         margin-left: 375px;
+	                 	         margin-left: 375px !important;
 	                 }
 }
 
