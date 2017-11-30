@@ -12,6 +12,11 @@ body{
 			font-weight: 700;
 			font-size: 38px;
 }
+.happy-skul-2{
+           color: #fff;
+           font-size: 15px;
+           margin-left: 548px;
+}
 .sch-program-padding{
 			padding-left: 11px;
 			padding-right: 11px;
@@ -630,6 +635,9 @@ body{
     height: 100% !important;
     background: #000000bf !important;
 }
+.happy-skul2{
+	margin-left: 250px;
+}
 
 	
 
@@ -687,19 +695,29 @@ body{
     height: 100% !important;
     background: #000000bf !important;
 }
+.happy-skul2{
+	margin-left: 250px;
+}
 
 }
 
 @media (max-width: 1024px){
 	                 .main-navbar-bg{
-	                 	         margin-left: 200px;
+	                 	         margin-left: 158px !important;
+	                 }
+	                 .happy-skul-2{
+	                 	          margin-left: 302px;
+	                 	          font-size: 18px;
+	                 }
+	                 .blog-text h1{
+                                  font-size: 25px;
+	                 }
+	                 .social-icon ul li{
+	                 	             padding: 0 13px;
+
 	                 }
 }
 
 
-@media (max-width: 1440px){
-	                 .main-navbar-bg{
-	                 	         margin-left: 375px !important;
-	                 }
-}
+
 
