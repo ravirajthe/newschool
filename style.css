@@ -449,10 +449,7 @@ body{
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-.overlay{
-	position: absolute;
-	
-}
+
 .header-text h3{
 	font-size: 36px;
 	font-weight: 700;
@@ -597,12 +594,7 @@ body{
 	.sch-program-item h1{
 		font-size: 26px;
 	}
-	.overlay{
-		position: absolute !important;
-    width: 100% !important;
-    height: 100% !important;
-    background: #000000bf !important;
-	}
+	.
 	.social-icon ul li{
                         padding: 0 10px;
 	}
@@ -627,12 +619,7 @@ body{
 	.footer-ul li a{
                color: #fff !important;
 }
-.overlay{
-	position: absolute;
-	width: 100% !important;
-    height: 100% !important;
-    background: #000000bf !important;
-}
+
 .happy-skul2{
 	margin-left: 250px;
 }
