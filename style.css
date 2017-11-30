@@ -451,9 +451,7 @@ body{
 }
 .overlay{
 	position: absolute;
-	width: 100% !important;
-    height: 100% !important;
-    background: !important;
+	
 }
 .header-text h3{
 	font-size: 36px;
@@ -655,12 +653,7 @@ body{
 	.header-text h1{
 		font-size: 32px;
 	}
-	.overlay{
-		position: absolute !important;
-    width: 100% !important;
-    height: 100% !important;
-    background: #000000bf !important;
-	}
+
 
 	.blog-text h1{
 		    font-size: 32px !important;
@@ -689,12 +682,7 @@ body{
 
 
 }
-.overlay{
-	position: absolute;
-	width: 100% !important;
-    height: 100% !important;
-    background: #000000bf !important;
-}
+
 .happy-skul2{
 	margin-left: 250px;
 }
