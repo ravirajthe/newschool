@@ -573,6 +573,7 @@ body{
 		justify-content: center;
 }
 
+
 @media only screen and (max-width: 480px){
 	.header-body p {
 		margin-left: 0 !important;
@@ -617,6 +618,11 @@ body{
 	.social-icon ul li a{
                        padding: 26px;
 	}
+	.footer-ul li a{
+               color: #fff !important;
+{
+
+	}
 
 }
 
@@ -660,6 +666,10 @@ body{
 	.navbar-inverse .navbar-toggle{
                               border-color: #ffffff;
 	}
+
+	.footer-ul li a{
+               color: #fff !important;
+
 }
 
 
