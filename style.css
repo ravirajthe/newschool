@@ -344,7 +344,7 @@ body{
 	          background-color: #577188;
 	          padding-top: 30px;
               padding-bottom: 45px !important;
-              margin-left: 230px;
+              margin-left: 380px;
               
 }
 .navbar-inverse .navbar-nav>li{
@@ -611,6 +611,9 @@ body{
 
 
 	}
+	.navbar-inverse .navbar-toggle{
+		                   border-color: #fff;
+	}
 	.fa-3x{
 		  font-size: 2em !important;
 
@@ -685,4 +688,10 @@ body{
     background: #000000bf !important;
 }
 
+}
+
+@media (max-width: 1024px){
+	                 .main-navbar-bg{
+	                 	         margin-left: 145px;
+	                 }
 }
